@@ -9,28 +9,35 @@
     <title>Calculator</title>
     <style>
         #calc {
-            
+            background-color:lightblue;
+            max-width:50vw;
         }
         .show {
             text-align:right;
+            background-color:lightgrey;
+        }
+        button {
+            border-color:black;
         }
     </style>
 </head>
 <body style="text-align:center">
     <div id="calc" class="container">
+        <h2>Mike's calculator</h2>
         <div class="show">
-            <h3 class="show">WOAH</h3>
+            <h3 class="show">0</h3>
+            <h5 class="show">0</h5>
         </div>
         <div id="buttons" class="container">
             <div class="row">
                 <div class="col-xs-6">
-                    <button class="btn">C</button>
+                    <button id="c" class="btn">C</button>
                 </div>
                 <div class="col-xs-6">
-                    <button class="btn">AC</button>
+                    <button id="ac" class="btn">AC</button>
                 </div>
                 <div class="col-xs-3">
-                    <button class="btn">\</button>
+                    <button id="divide" class="btn">\</button>
                 </div>
             </div>
             <div class="row">
